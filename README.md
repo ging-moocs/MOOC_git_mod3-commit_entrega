@@ -122,12 +122,15 @@ $ git commit -m "x^4 button"
 
 ### Paso 6: Subir el repositorio a Github
 
-Para finalizar, hay que subir el repositorio local al repositorio remoto creado en Github inicialmente.
+Para finalizar, hay que subir el repositorio local al repositorio remoto creado en Github inicialmente (puede que el nombre sea main o master dependiendo de la versión de git y github usada).
 
+```
+$ git push origin master
+```
+Alternativamente:
 ```
 $ git push origin main
 ```
-
 
 ## Prueba de la práctica
 
